@@ -20,15 +20,18 @@ uint32_t isqrt1(uint32_t x)
 	return r;
 }
 
+
 uint32_t double_sqrt(uint32_t a)
 {
 	return (uint32_t)sqrt((double)a);
 }
 
+
 uint32_t float_sqrt(uint32_t a)
 {
 	return (uint32_t)sqrtf((float)a);
 }
+
 
 uint32_t noop(uint32_t a)
 {
@@ -40,14 +43,12 @@ void measure(const std::string &name, uint32_t(*fn)(uint32_t) )
 {
 	using std::chrono::high_resolution_clock;
 	using std::chrono::duration;
-	volatile uint32_t a = 666;		// 25.8
-	const int nPasses = 10'000'000;
-	std::vector<uint32_t> results(nPasses);
+	uint32_t a = 666;		// 25.8
+	const int n_passes = 10'000'000;
+	std::vector<uint32_t> results(n_passes);
 	auto t = high_resolution_clock::now();
-	int x = nPasses; 
-	while (x --> 0) 
-	{
-		results[x] = fn(a);
+	for (int i = 0; i < n_passes; ++i) {
+		results[i] = fn(i);
 	}
 	std::cout << name << duration<double, std::milli>(high_resolution_clock::now() - t).count() << "ms\n";
 }
@@ -68,8 +69,7 @@ void print_compiler()
 int main(int argc, char **argv)
 {
 	print_compiler();
-	for (int i=5; i-->0;) 
-	{
+	for (int i=5; i-->0;) {
 		measure("isqrt1 | ", isqrt1);
 		measure("double | ", double_sqrt);
 		measure("float  | ", float_sqrt);
