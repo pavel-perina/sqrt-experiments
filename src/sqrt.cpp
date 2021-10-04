@@ -6,6 +6,7 @@
 #include <chrono>
 #include <cmath>
 #include <vector>
+#include <sstream>
 
 uint32_t isqrt1(uint32_t x) 
 {
@@ -39,7 +40,7 @@ uint32_t noop(uint32_t a)
 }
 
 
-void measure(const std::string &name, uint32_t(*fn)(uint32_t) ) 
+double measure_time(uint32_t(*fn)(uint32_t)) 
 {
 	using std::chrono::high_resolution_clock;
 	using std::chrono::duration;
@@ -50,30 +51,30 @@ void measure(const std::string &name, uint32_t(*fn)(uint32_t) )
 	for (int i = 0; i < n_passes; ++i) {
 		results[i] = fn(i);
 	}
-	std::cout << name << duration<double, std::milli>(high_resolution_clock::now() - t).count() << "ms\n";
+	return duration<double, std::milli>(high_resolution_clock::now() - t).count();
 }
 
-void print_compiler() 
+std::string get_compiler() 
 {
-	std::cout << "Compiler: ";
+	std::ostringstream oss;
 #if defined(__clang__)
-	std::cout << "clang " << __clang_version__ << "\n";
+	oss << "clang " << __clang_version__ ;
 #elif defined(__GNUC__) || defined(__GNUG__)
-	std::cout << "gnuc " << __GNUC__ << "." << __GNUC_MINOR__ << "." << __GNUC_PATCHLEVEL__ << "\n";
+	oss << "gnuc " << __GNUC__ << "." << __GNUC_MINOR__ << "." << __GNUC_PATCHLEVEL__ ;
 #elif defined(_MSC_VER)
-	std::cout << "msc " << _MSC_FULL_VER << "\n";
+	oss << "msc " << _MSC_FULL_VER ;
 #endif
-
+	return oss.str();
 }
 
 int main(int argc, char **argv)
 {
-	print_compiler();
+	std::string cmp = get_compiler();
 	for (int i=5; i-->0;) {
-		measure("isqrt1 | ", isqrt1);
-		measure("double | ", double_sqrt);
-		measure("float  | ", float_sqrt);
-		measure("noop   | ", noop);
+		std::cout << "\"" << cmp << "\", \"isqrt1\", "      << std::to_string(measure_time(isqrt1)) << "\n";
+		std::cout << "\"" << cmp << "\", \"double_sqrt\", " << std::to_string(measure_time(double_sqrt)) << "\n";
+		std::cout << "\"" << cmp << "\", \"float_sqrt\", "  << std::to_string(measure_time(float_sqrt)) << "\n";
+		std::cout << "\"" << cmp << "\", \"noop\", "        << std::to_string(measure_time(noop)) << "\n";
 	}
 	return 0;
 }
