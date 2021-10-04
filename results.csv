@@ -1,0 +1,100 @@
+"gnuc 9.3.0", "isqrt1", 53.272300
+"gnuc 9.3.0", "double_sqrt", 38.829600
+"gnuc 9.3.0", "float_sqrt", 20.123300
+"gnuc 9.3.0", "noop", 1.638000
+"gnuc 9.3.0", "isqrt1", 52.739900
+"gnuc 9.3.0", "double_sqrt", 39.087800
+"gnuc 9.3.0", "float_sqrt", 19.578300
+"gnuc 9.3.0", "noop", 1.567200
+"gnuc 9.3.0", "isqrt1", 53.135700
+"gnuc 9.3.0", "double_sqrt", 39.392100
+"gnuc 9.3.0", "float_sqrt", 19.624000
+"gnuc 9.3.0", "noop", 1.696600
+"gnuc 9.3.0", "isqrt1", 54.690800
+"gnuc 9.3.0", "double_sqrt", 39.511400
+"gnuc 9.3.0", "float_sqrt", 19.798100
+"gnuc 9.3.0", "noop", 1.628900
+"gnuc 9.3.0", "isqrt1", 53.082100
+"gnuc 9.3.0", "double_sqrt", 39.313200
+"gnuc 9.3.0", "float_sqrt", 19.757000
+"gnuc 9.3.0", "noop", 1.697100
+"gnuc 10.3.0", "isqrt1", 53.816100
+"gnuc 10.3.0", "double_sqrt", 38.659300
+"gnuc 10.3.0", "float_sqrt", 19.460300
+"gnuc 10.3.0", "noop", 1.570900
+"gnuc 10.3.0", "isqrt1", 53.597200
+"gnuc 10.3.0", "double_sqrt", 39.243200
+"gnuc 10.3.0", "float_sqrt", 19.429600
+"gnuc 10.3.0", "noop", 1.574300
+"gnuc 10.3.0", "isqrt1", 54.612300
+"gnuc 10.3.0", "double_sqrt", 38.643600
+"gnuc 10.3.0", "float_sqrt", 19.878200
+"gnuc 10.3.0", "noop", 1.608200
+"gnuc 10.3.0", "isqrt1", 53.871400
+"gnuc 10.3.0", "double_sqrt", 38.655400
+"gnuc 10.3.0", "float_sqrt", 19.410100
+"gnuc 10.3.0", "noop", 1.696700
+"gnuc 10.3.0", "isqrt1", 54.468000
+"gnuc 10.3.0", "double_sqrt", 38.745800
+"gnuc 10.3.0", "float_sqrt", 20.856900
+"gnuc 10.3.0", "noop", 1.683600
+"clang 10.0.0 ", "isqrt1", 288.983900
+"clang 10.0.0 ", "double_sqrt", 38.969900
+"clang 10.0.0 ", "float_sqrt", 19.571800
+"clang 10.0.0 ", "noop", 1.640900
+"clang 10.0.0 ", "isqrt1", 287.817500
+"clang 10.0.0 ", "double_sqrt", 38.403500
+"clang 10.0.0 ", "float_sqrt", 19.700600
+"clang 10.0.0 ", "noop", 1.557400
+"clang 10.0.0 ", "isqrt1", 288.173300
+"clang 10.0.0 ", "double_sqrt", 38.913600
+"clang 10.0.0 ", "float_sqrt", 19.625000
+"clang 10.0.0 ", "noop", 1.605000
+"clang 10.0.0 ", "isqrt1", 288.401800
+"clang 10.0.0 ", "double_sqrt", 38.929200
+"clang 10.0.0 ", "float_sqrt", 19.637000
+"clang 10.0.0 ", "noop", 1.595300
+"clang 10.0.0 ", "isqrt1", 288.857500
+"clang 10.0.0 ", "double_sqrt", 38.585100
+"clang 10.0.0 ", "float_sqrt", 19.373900
+"clang 10.0.0 ", "noop", 1.567100
+"clang 12.0.0 ", "isqrt1", 287.649700
+"clang 12.0.0 ", "double_sqrt", 38.937100
+"clang 12.0.0 ", "float_sqrt", 19.294500
+"clang 12.0.0 ", "noop", 1.567000
+"clang 12.0.0 ", "isqrt1", 288.601200
+"clang 12.0.0 ", "double_sqrt", 38.835300
+"clang 12.0.0 ", "float_sqrt", 19.258000
+"clang 12.0.0 ", "noop", 1.588000
+"clang 12.0.0 ", "isqrt1", 287.795300
+"clang 12.0.0 ", "double_sqrt", 39.299900
+"clang 12.0.0 ", "float_sqrt", 19.704400
+"clang 12.0.0 ", "noop", 1.571200
+"clang 12.0.0 ", "isqrt1", 286.482200
+"clang 12.0.0 ", "double_sqrt", 38.836900
+"clang 12.0.0 ", "float_sqrt", 19.555900
+"clang 12.0.0 ", "noop", 1.586800
+"clang 12.0.0 ", "isqrt1", 289.528500
+"clang 12.0.0 ", "double_sqrt", 38.779600
+"clang 12.0.0 ", "float_sqrt", 19.453000
+"clang 12.0.0 ", "noop", 1.570600
+"msc 191627045", "isqrt1", 272.534400
+"msc 191627045", "double_sqrt", 55.512100
+"msc 191627045", "float_sqrt", 33.237100
+"msc 191627045", "noop", 13.755500
+"msc 191627045", "isqrt1", 257.283600
+"msc 191627045", "double_sqrt", 54.924000
+"msc 191627045", "float_sqrt", 32.945900
+"msc 191627045", "noop", 13.888300
+"msc 191627045", "isqrt1", 256.836300
+"msc 191627045", "double_sqrt", 54.905300
+"msc 191627045", "float_sqrt", 33.681600
+"msc 191627045", "noop", 13.996400
+"msc 191627045", "isqrt1", 255.866900
+"msc 191627045", "double_sqrt", 54.563900
+"msc 191627045", "float_sqrt", 33.272200
+"msc 191627045", "noop", 13.766000
+"msc 191627045", "isqrt1", 257.438200
+"msc 191627045", "double_sqrt", 55.104100
+"msc 191627045", "float_sqrt", 33.572900
+"msc 191627045", "noop", 13.762100
