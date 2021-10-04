@@ -23,7 +23,3 @@ for row in table:
     os.chdir("..")
     shutil.copyfile("build-linux/src/sqrt", "sqrt-" + row[0])
 
-for row in table:
-    print("\033[96mRunning speed test for " + row[0] + ".\033[0m");
-    subprocess.run(["./sqrt-" + row[0]])
-
