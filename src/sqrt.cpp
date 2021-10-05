@@ -1,5 +1,10 @@
-// http://graphics.stanford.edu/~seander/bithacks.html
-
+/*
+Some links:
+	http://graphics.stanford.edu/~seander/bithacks.html
+	https://stackoverflow.com/questions/34652001/how-to-get-a-square-root-for-32-bit-input-in-one-clock-cycle-only
+	https://stackoverflow.com/questions/31117497/fastest-integer-square-root-in-the-least-amount-of-instructions
+	https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
+*/
 #include <cstdint>
 #include <string>
 #include <iostream>
@@ -8,6 +13,10 @@
 #include <vector>
 #include <sstream>
 
+// https://stackoverflow.com/a/31118777/5294293
+
+
+// https://stackoverflow.com/a/56717339/5294293
 uint32_t isqrt1(uint32_t x) 
 {
 	uint32_t r = 0, r2 = 0;
