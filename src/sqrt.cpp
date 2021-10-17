@@ -246,7 +246,7 @@ uint32_t float_sqrt(uint32_t a)
 
 uint32_t noop(uint32_t a)
 {
-	return 0;
+	return a;
 }
 
 
