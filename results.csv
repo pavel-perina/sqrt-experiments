@@ -1,212 +1,177 @@
-gnuc 9.3.0,isqrt1,52.871500
-gnuc 9.3.0,isqrt2,187.956200
-gnuc 9.3.0,isqrt3,112.001500
-gnuc 9.3.0,fred_sqrt,49.103800
-gnuc 9.3.0,double_sqrt,39.600600
-gnuc 9.3.0,float_sqrt,19.806800
-gnuc 9.3.0,noop,3.683800
-gnuc 9.3.0,isqrt1,53.642300
-gnuc 9.3.0,isqrt2,187.973600
-gnuc 9.3.0,isqrt3,112.019700
-gnuc 9.3.0,fred_sqrt,50.039200
-gnuc 9.3.0,double_sqrt,38.643300
-gnuc 9.3.0,float_sqrt,19.754300
-gnuc 9.3.0,noop,3.817200
-gnuc 9.3.0,isqrt1,54.397900
-gnuc 9.3.0,isqrt2,187.148700
-gnuc 9.3.0,isqrt3,112.091800
-gnuc 9.3.0,fred_sqrt,49.270400
-gnuc 9.3.0,double_sqrt,38.624600
-gnuc 9.3.0,float_sqrt,19.925000
-gnuc 9.3.0,noop,3.661100
-gnuc 9.3.0,isqrt1,54.049600
-gnuc 9.3.0,isqrt2,190.230800
-gnuc 9.3.0,isqrt3,116.117600
-gnuc 9.3.0,fred_sqrt,50.452400
-gnuc 9.3.0,double_sqrt,39.644100
-gnuc 9.3.0,float_sqrt,19.541900
-gnuc 9.3.0,noop,3.791600
-gnuc 9.3.0,isqrt1,53.779800
-gnuc 9.3.0,isqrt2,188.184600
-gnuc 9.3.0,isqrt3,112.730200
-gnuc 9.3.0,fred_sqrt,50.033800
-gnuc 9.3.0,double_sqrt,39.322800
-gnuc 9.3.0,float_sqrt,20.425500
-gnuc 9.3.0,noop,4.362500
-gnuc 10.3.0,isqrt1,54.732900
-gnuc 10.3.0,isqrt2,188.356900
-gnuc 10.3.0,isqrt3,112.593200
-gnuc 10.3.0,fred_sqrt,49.146800
-gnuc 10.3.0,double_sqrt,38.728900
-gnuc 10.3.0,float_sqrt,19.501800
-gnuc 10.3.0,noop,3.685600
-gnuc 10.3.0,isqrt1,55.798500
-gnuc 10.3.0,isqrt2,190.533900
-gnuc 10.3.0,isqrt3,112.599600
-gnuc 10.3.0,fred_sqrt,49.248600
-gnuc 10.3.0,double_sqrt,39.287900
-gnuc 10.3.0,float_sqrt,19.944200
-gnuc 10.3.0,noop,3.757000
-gnuc 10.3.0,isqrt1,54.498900
-gnuc 10.3.0,isqrt2,187.588900
-gnuc 10.3.0,isqrt3,114.329500
-gnuc 10.3.0,fred_sqrt,49.307500
-gnuc 10.3.0,double_sqrt,39.129600
-gnuc 10.3.0,float_sqrt,20.006300
-gnuc 10.3.0,noop,3.927600
-gnuc 10.3.0,isqrt1,55.662900
-gnuc 10.3.0,isqrt2,189.299800
-gnuc 10.3.0,isqrt3,113.361600
-gnuc 10.3.0,fred_sqrt,48.577900
-gnuc 10.3.0,double_sqrt,39.527100
-gnuc 10.3.0,float_sqrt,19.299500
-gnuc 10.3.0,noop,3.731100
-gnuc 10.3.0,isqrt1,54.902800
-gnuc 10.3.0,isqrt2,189.179300
-gnuc 10.3.0,isqrt3,116.250600
-gnuc 10.3.0,fred_sqrt,49.079200
-gnuc 10.3.0,double_sqrt,38.800500
-gnuc 10.3.0,float_sqrt,19.436300
-gnuc 10.3.0,noop,3.689000
-clang 10.0.0 ,isqrt1,289.880500
-clang 10.0.0 ,isqrt2,189.635500
-clang 10.0.0 ,isqrt3,114.498300
-clang 10.0.0 ,fred_sqrt,52.180400
-clang 10.0.0 ,double_sqrt,38.913200
-clang 10.0.0 ,float_sqrt,19.230800
-clang 10.0.0 ,noop,3.691400
-clang 10.0.0 ,isqrt1,287.826000
-clang 10.0.0 ,isqrt2,190.833900
-clang 10.0.0 ,isqrt3,115.543800
-clang 10.0.0 ,fred_sqrt,53.044800
-clang 10.0.0 ,double_sqrt,38.857900
-clang 10.0.0 ,float_sqrt,19.608300
-clang 10.0.0 ,noop,3.726100
-clang 10.0.0 ,isqrt1,289.624900
-clang 10.0.0 ,isqrt2,190.617900
-clang 10.0.0 ,isqrt3,114.284800
-clang 10.0.0 ,fred_sqrt,52.737700
-clang 10.0.0 ,double_sqrt,38.666600
-clang 10.0.0 ,float_sqrt,19.559800
-clang 10.0.0 ,noop,3.661600
-clang 10.0.0 ,isqrt1,288.672500
-clang 10.0.0 ,isqrt2,189.677700
-clang 10.0.0 ,isqrt3,115.953100
-clang 10.0.0 ,fred_sqrt,52.145900
-clang 10.0.0 ,double_sqrt,39.270500
-clang 10.0.0 ,float_sqrt,19.316200
-clang 10.0.0 ,noop,3.762600
-clang 10.0.0 ,isqrt1,289.480200
-clang 10.0.0 ,isqrt2,189.990500
-clang 10.0.0 ,isqrt3,115.083200
-clang 10.0.0 ,fred_sqrt,51.591500
-clang 10.0.0 ,double_sqrt,38.758400
-clang 10.0.0 ,float_sqrt,19.199000
-clang 10.0.0 ,noop,3.702500
-clang 12.0.0 ,isqrt1,290.021600
-clang 12.0.0 ,isqrt2,191.508300
-clang 12.0.0 ,isqrt3,117.336100
-clang 12.0.0 ,fred_sqrt,53.253500
-clang 12.0.0 ,double_sqrt,40.690200
-clang 12.0.0 ,float_sqrt,19.241300
-clang 12.0.0 ,noop,3.714600
-clang 12.0.0 ,isqrt1,291.135500
-clang 12.0.0 ,isqrt2,191.994200
-clang 12.0.0 ,isqrt3,115.509900
-clang 12.0.0 ,fred_sqrt,53.157800
-clang 12.0.0 ,double_sqrt,38.945500
-clang 12.0.0 ,float_sqrt,19.441100
-clang 12.0.0 ,noop,3.762400
-clang 12.0.0 ,isqrt1,288.094400
-clang 12.0.0 ,isqrt2,190.419400
-clang 12.0.0 ,isqrt3,114.602200
-clang 12.0.0 ,fred_sqrt,53.326900
-clang 12.0.0 ,double_sqrt,39.494200
-clang 12.0.0 ,float_sqrt,19.320800
-clang 12.0.0 ,noop,4.390800
-clang 12.0.0 ,isqrt1,290.674900
-clang 12.0.0 ,isqrt2,192.200000
-clang 12.0.0 ,isqrt3,115.805100
-clang 12.0.0 ,fred_sqrt,52.078900
-clang 12.0.0 ,double_sqrt,39.377500
-clang 12.0.0 ,float_sqrt,19.973300
-clang 12.0.0 ,noop,3.840300
-clang 12.0.0 ,isqrt1,295.606100
-clang 12.0.0 ,isqrt2,193.682400
-clang 12.0.0 ,isqrt3,113.883500
-clang 12.0.0 ,fred_sqrt,52.674900
-clang 12.0.0 ,double_sqrt,39.071700
-clang 12.0.0 ,float_sqrt,19.833300
-clang 12.0.0 ,noop,3.855800
-msc 191627045,isqrt1,306.655300
-msc 191627045,isqrt1,308.873000
-msc 191627045,isqrt2,191.889300
-msc 191627045,isqrt3,119.618900
-msc 191627045,fred_sqrt,58.809600
-msc 191627045,double_sqrt,54.629400
-msc 191627045,float_sqrt,38.774900
-msc 191627045,noop,16.619000
-msc 191627045,isqrt1,306.006300
-msc 191627045,isqrt2,191.539200
-msc 191627045,isqrt3,119.000500
-msc 191627045,fred_sqrt,58.629400
-msc 191627045,double_sqrt,55.288100
-msc 191627045,float_sqrt,39.056100
-msc 191627045,noop,17.192000
-msc 191627045,isqrt1,309.341100
-msc 191627045,isqrt2,191.761700
-msc 191627045,isqrt3,118.980100
-msc 191627045,fred_sqrt,59.022800
-msc 191627045,double_sqrt,55.238000
-msc 191627045,float_sqrt,38.892000
-msc 191627045,noop,16.724900
-msc 191627045,isqrt1,307.241500
-msc 191627045,isqrt2,190.522900
-msc 191627045,isqrt3,118.275800
-msc 191627045,fred_sqrt,58.666900
-msc 191627045,double_sqrt,55.231400
-msc 191627045,float_sqrt,38.503000
-msc 191627045,noop,17.007600
-msc 191627045,isqrt1,305.185600
-msc 191627045,isqrt2,194.084200
-msc 191627045,isqrt3,119.173400
-msc 191627045,fred_sqrt,58.219500
-msc 191627045,double_sqrt,55.552500
-msc 191627045,float_sqrt,38.861100
-msc 191627045,noop,16.576900
-msc 1916avx2,isqrt1,227.152200
-msc 1916avx2,isqrt2,183.879900
-msc 1916avx2,isqrt3,115.782700
-msc 1916avx2,fred_sqrt,59.051200
-msc 1916avx2,double_sqrt,55.234400
-msc 1916avx2,float_sqrt,35.925900
-msc 1916avx2,noop,14.544000
-msc 1916avx2,isqrt1,225.500000
-msc 1916avx2,isqrt2,183.522300
-msc 1916avx2,isqrt3,116.117200
-msc 1916avx2,fred_sqrt,58.173600
-msc 1916avx2,double_sqrt,55.224900
-msc 1916avx2,float_sqrt,36.116600
-msc 1916avx2,noop,13.922600
-msc 1916avx2,isqrt1,225.166500
-msc 1916avx2,isqrt2,187.704600
-msc 1916avx2,isqrt3,115.475100
-msc 1916avx2,fred_sqrt,59.467800
-msc 1916avx2,double_sqrt,55.883500
-msc 1916avx2,float_sqrt,35.855000
-msc 1916avx2,noop,14.348700
-msc 1916avx2,isqrt1,224.670700
-msc 1916avx2,isqrt2,184.259200
-msc 1916avx2,isqrt3,115.627000
-msc 1916avx2,fred_sqrt,59.447800
-msc 1916avx2,double_sqrt,55.497300
-msc 1916avx2,float_sqrt,35.912700
-msc 1916avx2,noop,13.782000
-msc 1916avx2,isqrt1,226.091500
-msc 1916avx2,isqrt2,186.342500
-msc 1916avx2,isqrt3,114.275400
-msc 1916avx2,fred_sqrt,57.954400
-msc 1916avx2,double_sqrt,54.715800
-msc 1916avx2,float_sqrt,36.076100
-msc 1916avx2,noop,13.793300
+gnuc 9.3.0,isqrt1,77.945100
+gnuc 9.3.0,isqrt2,344.750600
+gnuc 9.3.0,isqrt3,139.251800
+gnuc 9.3.0,fred_sqrt,98.521000
+gnuc 9.3.0,double_sqrt,38.925600
+gnuc 9.3.0,float_sqrt,20.282800
+gnuc 9.3.0,noop,5.780000
+gnuc 9.3.0,isqrt1,78.865400
+gnuc 9.3.0,isqrt2,346.236200
+gnuc 9.3.0,isqrt3,140.955900
+gnuc 9.3.0,fred_sqrt,98.669100
+gnuc 9.3.0,double_sqrt,39.196300
+gnuc 9.3.0,float_sqrt,20.398800
+gnuc 9.3.0,noop,6.183100
+gnuc 9.3.0,isqrt1,79.059800
+gnuc 9.3.0,isqrt2,345.663000
+gnuc 9.3.0,isqrt3,139.279900
+gnuc 9.3.0,fred_sqrt,99.217200
+gnuc 9.3.0,double_sqrt,39.215000
+gnuc 9.3.0,float_sqrt,20.203300
+gnuc 9.3.0,noop,5.650800
+gnuc 9.3.0,isqrt1,81.428800
+gnuc 9.3.0,isqrt2,345.473000
+gnuc 9.3.0,isqrt3,139.306600
+gnuc 9.3.0,fred_sqrt,99.929500
+gnuc 9.3.0,double_sqrt,39.325800
+gnuc 9.3.0,float_sqrt,20.192400
+gnuc 9.3.0,noop,5.750300
+gnuc 9.3.0,isqrt1,76.835600
+gnuc 9.3.0,isqrt2,347.082800
+gnuc 9.3.0,isqrt3,138.393200
+gnuc 9.3.0,fred_sqrt,99.208700
+gnuc 9.3.0,double_sqrt,39.132400
+gnuc 9.3.0,float_sqrt,20.299700
+gnuc 9.3.0,noop,5.638700
+gnuc 10.3.0,isqrt1,77.088300
+gnuc 10.3.0,isqrt2,347.571400
+gnuc 10.3.0,isqrt3,139.094700
+gnuc 10.3.0,fred_sqrt,100.794500
+gnuc 10.3.0,double_sqrt,38.834200
+gnuc 10.3.0,float_sqrt,20.206400
+gnuc 10.3.0,noop,5.670500
+gnuc 10.3.0,isqrt1,78.486500
+gnuc 10.3.0,isqrt2,346.385200
+gnuc 10.3.0,isqrt3,138.375300
+gnuc 10.3.0,fred_sqrt,100.651700
+gnuc 10.3.0,double_sqrt,38.827100
+gnuc 10.3.0,float_sqrt,20.443100
+gnuc 10.3.0,noop,5.697300
+gnuc 10.3.0,isqrt1,75.593200
+gnuc 10.3.0,isqrt2,346.717300
+gnuc 10.3.0,isqrt3,140.766000
+gnuc 10.3.0,fred_sqrt,100.214800
+gnuc 10.3.0,double_sqrt,39.490800
+gnuc 10.3.0,float_sqrt,20.167900
+gnuc 10.3.0,noop,5.838200
+gnuc 10.3.0,isqrt1,78.065100
+gnuc 10.3.0,isqrt2,347.750800
+gnuc 10.3.0,isqrt3,137.856200
+gnuc 10.3.0,fred_sqrt,99.930100
+gnuc 10.3.0,double_sqrt,39.087000
+gnuc 10.3.0,float_sqrt,20.288300
+gnuc 10.3.0,noop,6.532700
+gnuc 10.3.0,isqrt1,76.493400
+gnuc 10.3.0,isqrt2,346.678600
+gnuc 10.3.0,isqrt3,138.680500
+gnuc 10.3.0,fred_sqrt,102.573100
+gnuc 10.3.0,double_sqrt,38.723800
+gnuc 10.3.0,float_sqrt,20.228000
+gnuc 10.3.0,noop,6.268800
+clang 10.0.0 ,isqrt1,293.941100
+clang 10.0.0 ,isqrt2,349.732300
+clang 10.0.0 ,isqrt3,143.162700
+clang 10.0.0 ,fred_sqrt,108.572900
+clang 10.0.0 ,double_sqrt,38.689100
+clang 10.0.0 ,float_sqrt,19.901500
+clang 10.0.0 ,noop,5.662700
+clang 10.0.0 ,isqrt1,293.939000
+clang 10.0.0 ,isqrt2,349.223600
+clang 10.0.0 ,isqrt3,142.824200
+clang 10.0.0 ,fred_sqrt,109.072500
+clang 10.0.0 ,double_sqrt,38.889500
+clang 10.0.0 ,float_sqrt,20.027100
+clang 10.0.0 ,noop,5.850000
+clang 10.0.0 ,isqrt1,294.993000
+clang 10.0.0 ,isqrt2,350.159900
+clang 10.0.0 ,isqrt3,148.744100
+clang 10.0.0 ,fred_sqrt,109.181800
+clang 10.0.0 ,double_sqrt,38.597000
+clang 10.0.0 ,float_sqrt,19.824900
+clang 10.0.0 ,noop,6.001900
+clang 10.0.0 ,isqrt1,295.868600
+clang 10.0.0 ,isqrt2,351.381900
+clang 10.0.0 ,isqrt3,142.786100
+clang 10.0.0 ,fred_sqrt,108.757400
+clang 10.0.0 ,double_sqrt,38.931500
+clang 10.0.0 ,float_sqrt,19.835500
+clang 10.0.0 ,noop,5.711400
+clang 10.0.0 ,isqrt1,296.286900
+clang 10.0.0 ,isqrt2,350.039900
+clang 10.0.0 ,isqrt3,142.550100
+clang 10.0.0 ,fred_sqrt,111.874000
+clang 10.0.0 ,double_sqrt,38.897800
+clang 10.0.0 ,float_sqrt,20.221200
+clang 10.0.0 ,noop,6.115700
+clang 12.0.0 ,isqrt1,297.977600
+clang 12.0.0 ,isqrt2,355.948200
+clang 12.0.0 ,isqrt3,144.509900
+clang 12.0.0 ,fred_sqrt,109.096800
+clang 12.0.0 ,double_sqrt,39.160200
+clang 12.0.0 ,float_sqrt,21.607000
+clang 12.0.0 ,noop,5.758400
+clang 12.0.0 ,isqrt1,298.137000
+clang 12.0.0 ,isqrt2,351.526300
+clang 12.0.0 ,isqrt3,143.000700
+clang 12.0.0 ,fred_sqrt,108.571500
+clang 12.0.0 ,double_sqrt,39.261300
+clang 12.0.0 ,float_sqrt,19.823200
+clang 12.0.0 ,noop,5.844200
+clang 12.0.0 ,isqrt1,299.367300
+clang 12.0.0 ,isqrt2,349.865200
+clang 12.0.0 ,isqrt3,143.225100
+clang 12.0.0 ,fred_sqrt,108.608300
+clang 12.0.0 ,double_sqrt,39.555800
+clang 12.0.0 ,float_sqrt,19.956700
+clang 12.0.0 ,noop,8.108900
+clang 12.0.0 ,isqrt1,296.416300
+clang 12.0.0 ,isqrt2,350.512100
+clang 12.0.0 ,isqrt3,143.345000
+clang 12.0.0 ,fred_sqrt,108.957500
+clang 12.0.0 ,double_sqrt,38.833800
+clang 12.0.0 ,float_sqrt,19.886700
+clang 12.0.0 ,noop,5.750700
+clang 12.0.0 ,isqrt1,295.295800
+clang 12.0.0 ,isqrt2,353.893400
+clang 12.0.0 ,isqrt3,143.104200
+clang 12.0.0 ,fred_sqrt,108.104800
+clang 12.0.0 ,double_sqrt,39.885400
+clang 12.0.0 ,float_sqrt,20.026800
+clang 12.0.0 ,noop,5.963000
+msc 1916avx2,isqrt1,707.754300
+msc 1916avx2,isqrt2,342.262300
+msc 1916avx2,isqrt3,145.114100
+msc 1916avx2,fred_sqrt,109.358600
+msc 1916avx2,double_sqrt,55.162000
+msc 1916avx2,float_sqrt,42.323900
+msc 1916avx2,noop,16.747600
+msc 1916avx2,isqrt1,699.914500
+msc 1916avx2,isqrt2,341.677700
+msc 1916avx2,isqrt3,145.821300
+msc 1916avx2,fred_sqrt,111.639600
+msc 1916avx2,double_sqrt,55.895900
+msc 1916avx2,float_sqrt,41.145400
+msc 1916avx2,noop,16.842100
+msc 1916avx2,isqrt1,701.393600
+msc 1916avx2,isqrt2,342.531400
+msc 1916avx2,isqrt3,145.461500
+msc 1916avx2,fred_sqrt,109.913800
+msc 1916avx2,double_sqrt,55.182700
+msc 1916avx2,float_sqrt,41.405400
+msc 1916avx2,noop,16.470600
+msc 1916avx2,isqrt1,702.831200
+msc 1916avx2,isqrt2,343.109300
+msc 1916avx2,isqrt3,145.404100
+msc 1916avx2,fred_sqrt,111.625800
+msc 1916avx2,double_sqrt,56.245800
+msc 1916avx2,float_sqrt,41.089000
+msc 1916avx2,noop,16.479000
+msc 1916avx2,isqrt1,703.647000
+msc 1916avx2,isqrt2,340.965400
+msc 1916avx2,isqrt3,144.999700
+msc 1916avx2,fred_sqrt,110.577000
+msc 1916avx2,double_sqrt,55.818900
+msc 1916avx2,float_sqrt,41.523400
+msc 1916avx2,noop,16.909500
+
 
