@@ -12,6 +12,8 @@ Some links:
 #include <cmath>
 #include <vector>
 #include <sstream>
+#include <random>
+#include <limits>
 
 // https://stackoverflow.com/a/31118777/5294293
 
@@ -249,16 +251,18 @@ uint32_t noop(uint32_t a)
 	return a;
 }
 
+/************************************************************************/
+constexpr int n_passes = 10'000'000;
+std::vector<uint32_t> g_input;
 
 double measure_time(uint32_t(*fn)(uint32_t)) 
 {
 	using std::chrono::high_resolution_clock;
 	using std::chrono::duration;
-	const int n_passes = 10'000'000;
 	std::vector<uint32_t> results(n_passes);
 	auto t = high_resolution_clock::now();
 	for (int i = 0; i < n_passes; ++i) {
-		results[i] = fn(i);
+		results[i] = fn(g_input[i]);
 	}
 	return duration<double, std::milli>(high_resolution_clock::now() - t).count();
 }
@@ -267,15 +271,15 @@ double measure_time16(uint16_t(*fn)(uint32_t))
 {
 	using std::chrono::high_resolution_clock;
 	using std::chrono::duration;
-	const int n_passes = 10'000'000;
 	std::vector<uint16_t> results(n_passes);
 	auto t = high_resolution_clock::now();
 	for (int i = 0; i < n_passes; ++i) {
-		results[i] = fn(i);
+		results[i] = fn(g_input[i]);
 	}
 	return duration<double, std::milli>(high_resolution_clock::now() - t).count();
 }
 
+// NOTE: msvc sometimes compiled with AVX2 arch
 std::string get_compiler() 
 {
 	std::ostringstream oss;
@@ -292,6 +296,14 @@ std::string get_compiler()
 int main(int argc, char **argv)
 {
 	std::string cmp = get_compiler();
+
+	std::uniform_int_distribution<uint32_t> distribution(0, std::numeric_limits<uint32_t>::max());
+	std::mt19937 engine; // Mersenne twister MT19937
+	g_input.reserve(n_passes);
+	for (int i = 0; i < n_passes; ++i) {
+		g_input.push_back(distribution(engine));
+	}
+
 	for (int i=5; i-->0;) {
 		std::cout << cmp << ",isqrt1,"      << std::to_string(measure_time(isqrt1)) << "\n";
 		std::cout << cmp << ",isqrt2,"      << std::to_string(measure_time16(isqrt2)) << "\n";
